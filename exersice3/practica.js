@@ -1,23 +1,16 @@
-let free = false
-const validClient = time => {
-    let ageInput = prompt('¿cual es tu edad?');
-    const age = parseInt(ageInput);
-
-    if (age > 18) {
-        if (time >= 2 && time <= 7 && free === false) {
-            alert("podes pasar gratis despues de las 2 am");
-            free = true
-        } else {
-            alert('podes pasar pero tenes que pagar la entrada');
-        }
-    } else {
-        alert('younger 18');
+for (i= 0; i< cantidad; i ++)
+alumnosTotales [i] = [prompt ('nombre del alumno'+ (i+1)),0];
+const tomarAsistencia = (nombre,p) => {
+    let presencia = prompt (nombre);
+    if (presencia == "p" || "P") {
+        alumnosTotales [i][1]++;
     }
 }
-
-validClient(23);
-validClient(0.3);
-validClient(3);
-validClient(0.4);
-validClient(1);
-validClient(2.30); 
+ for (i=0; i< 30; i++) {
+     for(alumno in alumnosTotales){
+         tomarAsistencia(alumnosTotales[alumno],alumno);
+     }
+ }
+ for (alumno in alumnosTotales) {
+     
+ }
