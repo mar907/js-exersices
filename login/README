@@ -1,0 +1,21 @@
+* Crear un archivo index.html y una carpeta js con el archivo index.js y 
+linkearla al index.html
+* En el se debera agrergar un formulario que cuente con 2 input y sus 
+respectivos label uno para el usuario y otro para la contrasena, ademas un 
+boton que ejecute el formulario
+* En el archivo js crear una constante llamada usuarios que sera un array 
+de objetos. Cada objeto debe contar con los siguientes dalos name, email y 
+password
+* Al presioanr el boton se deben tener en cuenta los siguientes casos:
+
+En caso de error se debe cambiar el borde del input correspondiente a color rojo 
+y mostrar un emnsaje debajo. 
+a. El correo no fue completado. Mensaje de error: El correo es requerido
+b. En el array de usuarios no existe el correo indicado. Mensaje de error:
+No existe el correo.
+2-
+a. El password no fue completado. Mensaje de error: El password es requerido
+b. En el array de usuarios existe el correo indicado, pero el password no 
+coincide. Mensaje de error: El password es incorrecto.
+3- Ambos datos estan correctos. Dejar de mostrar el formulario y mostrar un 
+mensaje: Hola (name) has iniciado sesion
