@@ -1,0 +1,32 @@
+*{
+    font-family:"sen",sans-serif;
+    font-weight: 100px;
+}
+
+.flex-container{
+    display: flex;;
+}
+
+.content-center{
+    justify-content: center;
+}
+
+.login_form  input {
+    width: 100%;
+}
+
+.login_form {
+    border: blue 2px solid;
+    padding: 1.2em;
+    width: 25%;
+}
+
+.login_form {
+    color: #FF5733;
+}
+
+.login_form .invalid_input {
+    border: #FF5733;
+}
+
+

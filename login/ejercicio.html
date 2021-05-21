@@ -6,22 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel=stylesheet type=text/css href="ejercicio.css">
+    <link rel=stylesheet type=text/css href="css/index.css">
 </head>
 
 <body>
-    <main>
-        <form class="usuario" id="usuario">
-            <div class="formulario__grupo" id="formulario__grupo" input type="text" required ><br>
-            <input type="email" class="imput-email" placeholder="Ej: correo@correo.com" required /><br>
-            <input type="password" required /><br>
-            <input type="submit" />
+    <main class="flex-container content-center ">
+        <form class="login_form" id="login_form">
 
+            <input type="email" name="email" class="imput-email" placeholder="Ej: correo@correo.com" required />
+            <p class="error_message"> </p>
+            <input type="password" name="password" required />
+            <p class="error_message"> </p>
+            <input type="submit" value="Ingresar" />
 
         </form>
     </main>
 
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 
